@@ -64,6 +64,12 @@ int main(){
     totalCourses.emplace_back("DATA STRUCTURES(S)", 3.5, 3);
     totalCourses.emplace_back("INTRO LINEAR ALGEBRA(S)", 4, 4);
 
+    // test grades for spring 2026
+    totalCourses.emplace_back("diff eq", 4, 3);
+    totalCourses.emplace_back("engr70", 4, 4);
+    totalCourses.emplace_back("physics 4c", 5, 3);
+    totalCourses.emplace_back("discrete math", 3, 4);
+
 
 
     /*
@@ -104,7 +110,7 @@ char numToGrade(float grade){
         return 'B';
     }
     else{
-        return 1;
+        return 'C';
     }
 }
 
